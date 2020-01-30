@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\netcoreapp3.0",
+    "\\Data",
+    "\\Models",
+    "\\Pages"
+  ],
+  "SelectedNode": "\\bin\\Debug\\netcoreapp3.0\\System.Collections.Immutable.dll",
+  "PreviewInSolutionExplorer": false
+}

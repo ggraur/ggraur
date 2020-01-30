@@ -1,0 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+using Bakery.models;
+using Bakery.Data.Configurations;
+
+namespace Bakery.Data
+{
+    public class BakeryContext : DbContext
+    {
+        public DbSet<Product> Products { get; set; }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite(@"Data source=Bakery.db");
+        }
+
+  
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfiguration(new ProductConfiguration()).Seed() ;
+    }
+
+
+    }
+}

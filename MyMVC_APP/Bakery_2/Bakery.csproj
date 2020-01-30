@@ -1,0 +1,152 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+      <NoWarn>NU1605</NoWarn>
+
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0-preview3.19554.8"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0-preview3.19554.8" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.0-preview2.19525.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.0-preview2.19525.5" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.6.0-preview5.19224.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0-preview3.19554.8" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0-preview3.19554.8">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+
+    <PackageReference Include="Microsoft.Build.Runtime" Version="16.3.0" />
+
+    <PackageReference Include="Microsoft.Build" Version="16.3.0" />
+
+    <PackageReference Include="Microsoft.Build.Tasks.Core" Version="16.3.0" />
+
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="4.11.0-preview3.19551.4" />
+
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.3.0" />
+
+    <PackageReference Include="System.CodeDom" Version="4.7.0-preview3.19551.4" />
+
+    <PackageReference Include="System.Resources.Extensions" Version="4.7.0-preview3.19551.4" />
+
+    <PackageReference Include="System.Resources.Writer" Version="4.3.0" />
+
+    <PackageReference Include="Microsoft.Build.Framework" Version="16.3.0" />
+
+    <!-- <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="4.7.0-preview3.19551.4" />
+    
+    <PackageReference Include="system.componentmodel.annotations" Version="4.7.0-preview3.19551.4" />
+
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.0.2" />
+    
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.0-preview2.19525.4" />
+
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.0-preview3.19553.2" />
+
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="microsoft.extensions.dependencyinjection.abstractions" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.0.2" />
+    <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.0-preview3.19553.2" />
+                                
+
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.0-preview2.19525.4" />
+    <PackageReference Include="system.memory" Version="4.5.3" />
+     
+    
+
+  
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="1.1.0-preview3.19551.4" />
+ 
+
+    
+    <PackageReference Include="system.collections.immutable" Version="1.7.0-preview3.19551.4" />
+    
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.0-preview3.19551.4" />
+ 
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="1.1.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.0-preview3.19553.2" />
+    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.0-preview3.19554.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0-preview3.19554.8">
+    <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+   
+    
+    <PackageReference Include="EntityFramework" Version="6.4.0-preview3-19553-01" />
+    <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0-preview3.19551.4" />
+
+  
+  
+    <PackageReference Include="Microsoft.NETCore.DotNetHostPolicy" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="3.1.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.NETCore.DotNetHostResolver" Version="3.1.0-preview3.19553.2" />
+    <PackageReference Include="Microsoft.NETCore.DotNetAppHost" Version="3.1.0-preview3.19553.2" />
+
+  
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0-preview3.19558.8" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0-preview3.19551.4" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="runtime.native.System.Data.SqlClient.sni" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Security.Permissions" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Security.AccessControl" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Windows.Extensions" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Runtime.InteropServices.RuntimeInformation" Version="4.3.0" />
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encoding" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Primitives" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.Extensions" Version="4.3.0" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+    <PackageReference Include="System.Globalization" Version="4.3.0" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+    <PackageReference Include="runtime.native.System" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.Handles" Version="4.3.0" />
+    <PackageReference Include="Microsoft.Win32.Primitives" Version="4.3.0" />
+     <PackageReference Include="System.AppContext" Version="4.3.0" />
+     <PackageReference Include="System.Console" Version="4.3.1" />
+     <PackageReference Include="System.Globalization.Calendars" Version="4.3.0" />
+     <PackageReference Include="System.IO.Compression" Version="4.3.0" />
+     <PackageReference Include="runtime.native.System.IO.Compression" Version="4.3.2" />
+     <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
+     <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="3.1.0-preview3.19551.4" />
+    <PackageReference Include="runtime.native.System.Net.Http" Version="4.3.1" />
+    <PackageReference Include="System.Security.Cryptography.Csp" Version="4.3.0" />
+    <PackageReference Include="System.Security.Cryptography.OpenSsl" Version="4.7.0-preview3.19551.4" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.6.0-preview5.19224.8" />
+    <PackageReference Include="Microsoft.NETCore.Targets" Version="3.1.0-preview3.19551.4" /> -->
+    
+
+
+
+  </ItemGroup>
+ 
+</Project>
